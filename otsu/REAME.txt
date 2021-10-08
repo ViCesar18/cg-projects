@@ -1,0 +1,11 @@
+Aluno: Vinícius Cesar dos Santos
+Matrícula: 201800560288
+
+- As imagens de entrada devem estar na pasta 'images';
+
+- As imagens segmentadas serão geradas na pasta 'segmented-images';
+
+Obs: O nome da imagem de entrada deve ser digitada junto com a extensão, quando o programa pedir.
+
+** Execução **
+python3 otsu.py

@@ -1,0 +1,31 @@
+Aluno: Vinícius Cesar dos Santos
+Matrícula: 201800560288
+
+- As imagens de entrada devem ser colocadas na pasta 'images';
+
+- Foram 4 imagens para teste, sendo que uma delas possui ruído (rect-noise.png).
+
+- As imagens possuem tamanho reduzido (aproximadamente 50x50), pois tamanhos maiores resultam numa execução muito demorada;
+
+- Fluxo do Programa
+    1) Calcula a Transformada Discreta do Cosseno e salva o resultado em imagem na pasta 'frequency-images';
+
+    2) Gera a imagem original a partir da frequência calculada através da Transformada Inversa Discreta do Cosseno e salva o resultado na pasta 'inverse-images';
+
+    3) Realiza o Filtro Passa-Baixa, com o raio inserido pelo usuário, na frequência e salva o resultado em imagem na pasta 'low-pass-filter-images';
+
+    4) Gera a imagem resultado do Filtro Passa-Baixa através da Transformada Inversa e salva o resultado na pasta 'low-pass-filter-images';
+
+    5) Realiza o Filtro Passa-Alta, com o raio inserido pelo usuário, na frequência e salva o resultado em imagem na pasta 'high-pass-filter-images';
+
+    6) Gera a imagem resultado do Filtro Passa-Alta através da Transformada Inversa e salva o resultado na pasta 'high-pass-filter-images';
+
+    7) Gera um ruído na frequência original e salva o resultado em imagem na pasta 'noised-images';
+
+    8) Gera a imagem resultado do ruído através da Transformada Inversa e salva o resultado na pasta 'noised-images';
+
+** Importante!! **
+As iamgens fornecidas como entrada devem possuir somente uma camada (grayscale)!!
+
+** Execução **
+python3 dct.py

@@ -1,0 +1,11 @@
+Aluno: Vinícius Cesar dos Santos
+Matrícula: 201800560288
+
+Instruções de execução:
+
+- Apenas rode "python3 {nome_do_programa}" e siga as instruções no terminal.
+
+Obs: Em ambos os programas, as imagens em RGB para serem convertidas devem estar na pasta "rgb-images".
+
+Obs1: No rgb2cmyk.py, as imagens convertidas para CMYK vão ser salvar na pasta cmyk-images,
+enquanto no rgb2hsi.py as imagens são mostradas na tela quando o programa finalizar a execução.
